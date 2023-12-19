@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">ProjectPertamaSadham</string>
+    <string name="InputBerat">Masukan Berat Barang (Kg)</string>
+    <string name="InputJarak">Masukan Jarak Pengiriman (Km)</string>
+    <string name="InputRating">Bagaimana Pelayananya ?</string>
+    <string name="InputTip">Ingin Memberikan Tip Kepada Driver ?</string>
+    <string name="jmlOngkir">Jumlah Ongkos Kirim</string>
+    <string name="jmlTip">Jumlah Tip yang di berikan</string>
+    <string name="total">Jumlah Uang Yang Harus Di Bayarkan ( Rp )</string>
+    <string name="NilaiDefaultAngka">0</string>
+    <string name="buttonHitung">Hitung Ongkos Kirim</string>
+    <string name="buttonGantiGambar">Pilih Masjid Yang Kamu Suka</string>
+    <string name="roll">Acak Makanan</string>
+
+    //kalukator
+    <string name="cost_of_service">Biaya Layanan</string>
+    <string name="how_was_the_service">Bagaimana Layanannya?</string>
+    <string name="amazing_service">Istimewa (40%)</string>
+    <string name="good_service">Baik (20%)</string>
+    <string name="ok_service">Buruk (30%)</string>
+    <string name="round_up_tip">Bulatkan Tip?</string>
+    <string name="calculate">Menghitung</string>
+    <string name="tip_amount">Jumlah Tip</string>
+
+    <string name="buttonPindahHalamanListFilm">Pindah Ke Halaman List Film</string>
+
+    //Navigation Drawer
+    <string name="open_nav">Open Navigation Drawer</string>
+    <string name="close_nav">Close Navigation Drawer</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+</resources>

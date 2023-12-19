@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#C7EDDF"
+    tools:context=".beranda">
+
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="220dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:src="@drawable/logobiru_removebg_preview"
+        />
+
+
+    <Button
+        android:id="@+id/pindah"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-black"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="10dp"
+        android:text="ᴍᴇɴɢʜɪᴛᴜɴɢ ᴏɴɢᴋɪʀ"
+        android:textSize="14dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/pindah2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:fontFamily="sans-serif-black"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="10dp"
+        android:text="ʀᴀɴᴅᴏᴍ ɪᴍᴀɢᴇ"
+        android:textSize="14dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/pindah" />
+
+    <Button
+        android:id="@+id/pindah3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:fontFamily="sans-serif-black"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="10dp"
+        android:text="ᴋᴀʟᴜᴋᴀʟᴀᴛᴏʀ ᴅᴀᴅᴜ"
+        android:textSize="14dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/pindah2" />
+
+    <Button
+        android:id="@+id/pindah4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:fontFamily="sans-serif-black"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="10dp"
+        android:text="ᴘɪɴᴅᴀʜ ᴋᴇ ʜᴀʟᴀᴍᴀɴ ʟɪꜱᴛ ᴍᴏᴠɪᴇ"
+        android:textSize="14dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/pindah3" />
+
+    <Button
+        android:id="@+id/pindah5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:fontFamily="sans-serif-black"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="10dp"
+        android:text="ᴘᴇʀᴄᴏʙᴀᴀɴ ꜰʀᴀɢᴍᴇɴᴛ"
+        android:textSize="14dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/pindah4" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
